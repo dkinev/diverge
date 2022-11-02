@@ -1,0 +1,33 @@
+{
+  "name": "dkinev/diverge",
+  "description": "Validate markup/discount between current price and previous",
+  "type": "library",
+  "keywords": [
+    "validation",
+    "php",
+    "analyze"
+  ],
+  "authors": [
+    {
+      "name": "Dmitry Kinev",
+      "email": "dk.psy@inbox.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "vimeo/psalm": "^4.29"
+  },
+  "autoload": {
+    "psr-4": {
+      "dkinev\\diverge\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "dkinev\\diverge\\Test\\": "Test/"
+    }
+  }
+}
